@@ -1,0 +1,46 @@
+/**********Estrurura**********/
+
+body {
+    margin: 0px;
+}
+
+/*Barra de navegação*/
+
+.nav-bar {
+    background-color: #BBDDFF;
+    padding: 20px 30px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar a {
+    padding: 10px 10px 0px 0px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    position: relative;
+    left: 50%;
+}
+
+.nav-bar span a{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.nav-bar img {
+    right: -1%;
+    position: relative;
+}
+
+
+/*Barra de navegação*/
+
+
+/**********Estrurura**********/
+
+
+
+/**********Tipografia**********/
