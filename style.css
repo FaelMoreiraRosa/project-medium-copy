@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 
-/*Barra de navegação*/
+/*Barra de navegação (Inicio)*/
 
 .nav-bar {
     background-color: #BBDDFF;
@@ -12,6 +12,7 @@ body {
     border-bottom: 1px solid black;
     position: sticky;
     top: 0;
+    margin-top: -1%x;
 }
 
 .nav-bar a {
@@ -35,9 +36,35 @@ body {
     position: relative;
 }
 
+/*Conteúdo central (Inicio)*/
 
-/*Barra de navegação*/
+.conteudo {
+    border: 1px solid red;
+}
 
+.principal {
+    background-color: #BBDDFF;
+    margin: 0px;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.principal h1{
+    font-size: 4rem;
+}
+
+.principal img {
+    width: 30%;
+    float: right;
+}
+
+.principal::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
 
 /**********Estrurura**********/
 
