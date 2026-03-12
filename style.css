@@ -32,32 +32,46 @@ body {
 }
 
 .nav-bar img {
-    right: -1%;
     position: relative;
+    left: 3%;
 }
 
 /*Conteúdo central (Inicio)*/
 
 .conteudo {
-    border: 1px solid red;
+    position: relative;
+    bottom: 5vh;
 }
 
 .principal {
     background-color: #BBDDFF;
     margin: 0px;
-    padding: 1% 5%;
+    padding: 0% 5% 0% 5%;
     display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
+    border-bottom: 1px solid black;
+    padding-bottom: 2%;
 }
 
 .principal h1{
-    font-size: 4rem;
+    font-size: 10vh;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.principal p{
+    margin-top: 0px;
+}
+
+.principal button{
+    padding: 1.5% 4%;
+    border-radius: 20px;
 }
 
 .principal img {
     width: 30%;
-    float: right;
+    left: 30%;
+    position: relative;
+    top: 1.5em;
 }
 
 .principal::after {
