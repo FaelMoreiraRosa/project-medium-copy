@@ -13,6 +13,7 @@ body {
     position: sticky;
     top: 0;
     margin-top: -1%x;
+    z-index: 10;
 }
 
 .nav-bar a {
@@ -24,7 +25,7 @@ body {
     left: 50%;
 }
 
-.nav-bar span a{
+.nav-bar span a {
     color: white;
     background-color: black;
     padding: 15px;
@@ -52,17 +53,17 @@ body {
     padding-bottom: 2%;
 }
 
-.principal h1{
+.principal h1 {
     font-size: 10vh;
     margin-bottom: 0px;
     font-weight: 500;
 }
 
-.principal p{
+.principal p {
     margin-top: 0px;
 }
 
-.principal button{
+.principal button {
     padding: 1.5% 4%;
     border-radius: 20px;
 }
@@ -75,6 +76,65 @@ body {
 }
 
 .principal::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+/*Seção tendências*/
+
+.trends {
+    padding: 4% 5% 0% 5%;
+    border: 1px solid red;
+    width: 350px;
+}
+
+.trend-title span {
+    background: rgba(255, 255, 255, 0) url(./img/icone-tendencia.png) no-repeat -0.1rem center;
+    padding: 2px 30px;
+    position: relative;
+    top: -4vh;
+    display: block;
+    width: 200px;
+}
+
+
+.trend-element {
+    float: left;
+    position: relative;
+    right: 15px;
+    display: inline;
+}
+
+.trend-element .numeral {
+    font-size: 5vh;
+    font-weight: 900;
+    position: relative;
+    bottom: -6vh;
+    left: -2vh;
+}
+
+.trend-element .icon {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone1.png) no-repeat 25% center;
+    background-size: 20%;
+}
+
+.trend-element .trend-content {
+    margin-left: 5vh;
+    position: relative;
+    float: right;
+    font-weight: bolder;
+}
+
+.trend-element .trend-times {
+    position: relative;
+    float: right;
+    right: 51.5%;
+}
+
+.trends::after {
     content: " ";
     clear: both;
     display: block;
