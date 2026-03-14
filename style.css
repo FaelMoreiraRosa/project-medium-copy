@@ -44,6 +44,10 @@ body {
     bottom: 5vh;
 }
 
+.trend-table {
+    margin-top: -8vh;
+}
+
 .principal {
     background-color: #BBDDFF;
     margin: 0px;
@@ -85,8 +89,7 @@ body {
 
 .trends {
     padding: 4% 5% 0% 5%;
-    border: 1px solid red;
-    width: 350px;
+    width: auto;
 }
 
 .trend-title span {
@@ -98,9 +101,7 @@ body {
     width: 200px;
 }
 
-
 .trend-element {
-    float: left;
     position: relative;
     right: 15px;
     display: inline;
@@ -110,19 +111,76 @@ body {
     font-size: 5vh;
     font-weight: 900;
     position: relative;
-    bottom: -6vh;
-    left: -2vh;
+    bottom: -8vh;
+    left: 2vh;
+    display: block;
+    color: rgba(128, 128, 128, 0.745);
 }
-
-.trend-element .icon {
+/*trend icons*/
+.trend-element .icon1 {
     position: relative;
     padding-left: 10vh;
     background: rgba(255, 255, 255, 0) url(./img/icone1.png) no-repeat 25% center;
-    background-size: 20%;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
 }
 
+.trend-element .icon2 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone2.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+}
+
+.trend-element .icon3 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone3.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+}
+
+.trend-element .icon4 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone4.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+}
+
+.trend-element .icon5 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone5.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+}
+
+.trend-element .icon6 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone6.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+
+}
+
+
 .trend-element .trend-content {
-    margin-left: 5vh;
+    margin-left: 8vh;
     position: relative;
     float: right;
     font-weight: bolder;
@@ -131,7 +189,7 @@ body {
 .trend-element .trend-times {
     position: relative;
     float: right;
-    right: 51.5%;
+    right: 58%;
 }
 
 .trends::after {
@@ -139,6 +197,7 @@ body {
     clear: both;
     display: block;
 }
+
 
 /**********Estrurura**********/
 
