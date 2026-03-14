@@ -13,6 +13,7 @@ body {
     position: sticky;
     top: 0;
     margin-top: -1%x;
+    z-index: 10;
 }
 
 .nav-bar a {
@@ -24,7 +25,7 @@ body {
     left: 50%;
 }
 
-.nav-bar span a{
+.nav-bar span a {
     color: white;
     background-color: black;
     padding: 15px;
@@ -43,6 +44,10 @@ body {
     bottom: 5vh;
 }
 
+.trend-table {
+    margin-top: -8vh;
+}
+
 .principal {
     background-color: #BBDDFF;
     margin: 0px;
@@ -52,17 +57,17 @@ body {
     padding-bottom: 2%;
 }
 
-.principal h1{
+.principal h1 {
     font-size: 10vh;
     margin-bottom: 0px;
     font-weight: 500;
 }
 
-.principal p{
+.principal p {
     margin-top: 0px;
 }
 
-.principal button{
+.principal button {
     padding: 1.5% 4%;
     border-radius: 20px;
 }
@@ -79,6 +84,120 @@ body {
     clear: both;
     display: block;
 }
+
+/*Seção tendências*/
+
+.trends {
+    padding: 4% 5% 0% 5%;
+    width: auto;
+}
+
+.trend-title span {
+    background: rgba(255, 255, 255, 0) url(./img/icone-tendencia.png) no-repeat -0.1rem center;
+    padding: 2px 30px;
+    position: relative;
+    top: -4vh;
+    display: block;
+    width: 200px;
+}
+
+.trend-element {
+    position: relative;
+    right: 15px;
+    display: inline;
+}
+
+.trend-element .numeral {
+    font-size: 5vh;
+    font-weight: 900;
+    position: relative;
+    bottom: -8vh;
+    left: 2vh;
+    display: block;
+    color: rgba(128, 128, 128, 0.745);
+}
+/*trend icons*/
+.trend-element .icon1 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone1.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+}
+
+.trend-element .icon2 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone2.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+}
+
+.trend-element .icon3 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone3.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+}
+
+.trend-element .icon4 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone4.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+}
+
+.trend-element .icon5 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone5.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+}
+
+.trend-element .icon6 {
+    position: relative;
+    padding-left: 10vh;
+    background: rgba(255, 255, 255, 0) url(./img/icone6.png) no-repeat 25% center;
+    background-size: 14%;
+    left: 3vh;
+    height: 4vh;
+    display: inline-block;
+
+}
+
+
+.trend-element .trend-content {
+    margin-left: 8vh;
+    position: relative;
+    float: right;
+    font-weight: bolder;
+}
+
+.trend-element .trend-times {
+    position: relative;
+    float: right;
+    right: 58%;
+}
+
+.trends::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
 
 /**********Estrurura**********/
 
